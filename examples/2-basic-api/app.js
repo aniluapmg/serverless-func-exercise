@@ -15,7 +15,7 @@ const fetchData = async () => {
          </article>`
         })
         .join('')
-        result.innerHTML = productsgit 
+        result.innerHTML = products
     } catch (error) {
         result.innerHTML = `<h4>There was an arror. Please try again later</h4>`
     }
